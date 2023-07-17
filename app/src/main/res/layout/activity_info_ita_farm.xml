@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="410dp"
+        android:layout_height="374dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="84dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:text="Nome:"
+                android:textColor="#f9ab27 "
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextNome"
+                android:layout_width="324dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="85dp"
+                android:layout_marginTop="-36dp"
+                android:ems="10"
+                android:enabled="false"
+                android:fontFamily="@font/alata"
+                android:inputType="textPersonName"
+                android:textColor="#245083 " />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="84dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:text="Marca:"
+                android:textColor="#f9ab27 "
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextMarca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="85dp"
+                android:layout_marginTop="-36dp"
+                android:ems="10"
+                android:enabled="false"
+                android:fontFamily="@font/alata"
+                android:inputType="textPersonName"
+                android:textColor="#245083 " />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:text="Quantidade:"
+                android:textColor="#f9ab27 "
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextQuantidade"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="-36dp"
+                android:ems="10"
+                android:enabled="false"
+                android:fontFamily="@font/alata"
+                android:inputType="textPersonName"
+                android:textColor="#245083 "
+                android:textColorHighlight="#245083 " />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:text="Peso: (gramas)"
+                android:textColor="#f9ab27 "
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/editTextPeso"
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="174dp"
+                android:layout_marginTop="-36dp"
+                android:ems="10"
+                android:enabled="false"
+                android:fontFamily="@font/alata"
+                android:inputType="textPersonName"
+                android:textColor="#245083 " />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="84dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:text="Preço:"
+                android:textColor="#f9ab27 "
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextValor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="85dp"
+                android:layout_marginTop="-36dp"
+                android:ems="10"
+                android:enabled="false"
+                android:fontFamily="@font/alata"
+                android:inputType="textPersonName"
+                android:textColor="#245083 " />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="84dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:text="Lote:"
+                android:textColor="#f9ab27 "
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextLote"
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="85dp"
+                android:layout_marginTop="-36dp"
+                android:ems="10"
+                android:enabled="false"
+                android:fontFamily="@font/alata"
+                android:inputType="textPersonName"
+                android:textColor="#245083 " />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:text="Data de Validade:"
+                android:textColor="#f9ab27 "
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextValidade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="-36dp"
+                android:ems="10"
+                android:enabled="false"
+                android:fontFamily="@font/alata"
+                android:inputType="textPersonName"
+                android:textColor="#245083 " />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:text="Descrição:"
+                android:textColor="#f9ab27 "
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextDescricao"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPersonName"
+                android:textColor="#245083 " />
+
+            <EditText
+                android:id="@+id/editTextCodigo_de_barras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#245083 " />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="411dp"
+        android:layout_height="281dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/imgremedio" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
